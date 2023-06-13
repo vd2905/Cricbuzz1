@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:background="#00B388">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img"
+            android:scaleX="1.8"
+            android:scaleY="1.6"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_120sdp"
+            android:layout_marginBottom="@dimen/_15sdp"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative_layout"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_355sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_weight="1"
+        android:background="#F6F3F3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:text="Final-ICC World Test Championship Final 2023"
+            android:id="@+id/txt1"
+            android:textSize="@dimen/_13sdp"
+            android:gravity="center|start"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_3sdp"/>
+
+        <ImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:src="@drawable/aus"
+            android:id="@+id/img1"
+            android:layout_below="@id/txt1"/>
+
+        <TextView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:text="AUS"
+            android:textStyle="bold"
+            android:textSize="@dimen/_16sdp"
+            android:id="@+id/txt2"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_45sdp"
+            android:layout_below="@id/txt1"/>
+
+        <ImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:src="@drawable/ind"
+            android:id="@+id/img2"
+            android:layout_below="@id/img1"/>
+
+        <TextView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:text="IND"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="@dimen/_16sdp"
+            android:id="@+id/txt3"
+            android:layout_below="@id/txt2"
+            android:layout_marginLeft="@dimen/_45sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:text="3:00 pm"
+            android:textSize="@dimen/_15sdp"
+            android:gravity="center|start"
+            android:layout_below="@id/img2"
+            android:textColor="#EA1212"
+            android:layout_marginLeft="@dimen/_3sdp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
