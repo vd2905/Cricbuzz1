@@ -8,11 +8,9 @@ import android.os.Bundle;
 import com.example.cricbuzz1.databinding.ActivityOtherBinding;
 import com.google.android.material.tabs.TabLayout;
 
-import FragmentAdapter.FragmentAdapter;
+import MyAdapter.FragmentAdapter;
 
 public class OtherActivity extends AppCompatActivity {
-
-    ActivityOtherBinding binding;
     ViewPager viewPager;
     TabLayout tabLayout;
 

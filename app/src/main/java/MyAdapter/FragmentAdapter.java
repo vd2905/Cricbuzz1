@@ -1,4 +1,4 @@
-package FragmentAdapter;
+package MyAdapter;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
